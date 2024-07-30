@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.alm School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp.css">
+    <link rel="stylesheet" href="teacher.css">
+</head>
+<body style="color: black;">
+    <nav>
+        
+        <img src="img/logoschool.jpeg" alt="">
+        <div class="nav-menu" id="naveMenus">
+        <span onclick="hideMenu()">x</span>
+        <ul>
+            <li> <a href="home.html">Home</a></li>
+            <li> <a href="teacher.html">Teachers information</a></li>
+            <li> <a href="scldetails.html">School Details</a></li>
+            <li> <a href="sclnotic.html">School Notice</a></li>
+            <li> <a href="profile.html">Profile</a></li>
+            <link rel="stylesheet" href="resp.css">
+        </ul>
+        </div>
+
+        <i class="fa-solid fa-bars "id="menu-icon" onclick="openMenu()"></i>
+    </nav>
+
+   <section>
+          <div class="Rupan">
+             <div>
+                <img src="img/imran.jpg" alt="">
+             </div>
+             <div class="details">
+                <h1>Asst.Teachers, Of</h1>
+                <br>
+                <h2>S.alam Collegiate School & College</h2>
+                <br>
+                <h3 style="color: red; text-decoration: underline;">Academic Qualification</h3>
+                <br>
+                <strong>BSS [Hon's]MSS.A[Economic] DCSA</strong>
+                <br><br>
+                <button ><a href="teachers.html">Others Teachers</a></button>
+            </div>
+
+          </div>
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br>
+
+
+
+    
+    <footer>
+        <div class="ps">  
+            <p>SUBSCRIBE TO OUR SCHOOL: </p>
+        </div>
+        <div>
+            <input type="text" placeholder="Your Email Adrees">
+            <button class="subs" onclick="alert('Thanks Dear')">SUBSCRIBE</button>
+        </div>
+        <div class="margin">
+            <p>sacsc@gmail.com</p>
+            
+        </div >
+        <div class="margin2"><strong>[ARIX ESHAN] FOR SEE</strong><i class="fa-solid fa-bars"></i></div>
+       
+    </footer>
+    
+
+
+
+
+
+    <script type="text/javascript">
+        var naveMenus= document.getElementById ('naveMenus');
+        function openMenu() {
+            naveMenus.style.right="0";
+        }
+
+        function hideMenu() {
+            naveMenus.style.right="-300px";
+        }
+    </script>
+</body>
+</html>
